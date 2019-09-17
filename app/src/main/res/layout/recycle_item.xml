@@ -2,10 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingBottom="10dp"
-    android:background=""
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name"
+    android:layout_gravity="center_horizontal"
+    android:textSize="14pt"
+    android:textAlignment="center"
+    android:id="@+id/postCaption"/>
     <ImageView
         android:id="@+id/imageGot"
         android:layout_width="match_parent"
